@@ -1,0 +1,413 @@
+@import url(https://fonts.google.com/specimen/Inte);
+body{
+    background:hsl(233, 8%, 79%);
+    Font-size : 14px;
+    font-weight:400, 700, 800;
+font-family: 'Times New Roman', Times, serif;
+align-items: center;
+}
+
+
+.container{
+  background-color:#fff;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 90%;
+  height: 150px;
+  margin-top: 15px;
+  margin-left: 91px;
+  align-items: center;
+}
+
+.file .upper{
+    background-color: #fff;
+    padding: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    display: none;
+    display: flex;
+    place-content: space-between;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size:  45px;
+    align-items: center;
+    color: hsl(233, 8%, 79%);
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding:0;
+  }
+
+  .file {
+    display: flex;
+    position: unset;
+    height: auto;
+    width: 80%;
+    padding: 0;
+    background: white; 
+    margin: 0;
+    margin-top: 25px; 
+    align-items: center;
+    margin-right:3% ;
+    margin-right: 200px;
+    color: hsl(233, 8%, 79%);
+  }
+
+ .file ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+margin-left: 480px;;
+  }
+
+  .file a {
+    margin-top: -.2em;
+    font-size: 1em;
+    padding: .1em 1em;
+    align-items: center;
+    color: #001;
+    text-decoration: none;
+
+  }
+   
+  .upper {
+    width: 1080px;
+    margin: 0 auto;
+  }
+
+  .pre-body{
+    background-color:#fff;
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+width: 90%;
+height: 590px;
+margin-left: 91px;
+margin-bottom: 25px;
+align-items: left;
+}
+  
+.image{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+  #img{  position: relative; right: 50px; }
+
+  .never{
+    text-transform: capitalize;
+    font-size:40px;
+  margin-left: 92px;
+ font-weight: bold;
+ margin-top: 10px;
+  }
+
+.nepa{
+  position: absolute;
+  right: 0.9em;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 54%;
+    margin-top:230px;
+    font-size:15px ; 
+    cursor:pointer;
+}
+
+.nepa:hover{
+  color: red;
+}
+
+
+.readmore input{
+    display: block;
+    width: 20%;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 7px;
+    border: none;
+    border-radius: 0px;
+    color:white;
+    background:hsl(5, 85%, 63%);
+}
+
+.readmore input:hover{
+    background: #15c02c;
+    color: rgb(255, 255, 255);
+}
+
+.legit{
+  background-color:hsl(240, 100%, 5%);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 47%;
+  height: 390px;
+  margin-top:162px;
+  margin-left:167px;
+}
+
+.legal {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 43%;
+  height: 100% ;
+  }
+
+  .heading{
+    text-transform:capitalize;
+    align-items: center;
+    color: darkgoldenrod;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 1px;
+}
+
+.inside{
+font-size: 13px;
+margin-top:10px ;
+margin-left: 20px;
+font-weight: bold;
+text-decoration: none;
+cursor: pointer;
+}
+  
+.inside ul{
+    list-style: none;
+    margin: 0;
+    padding:0;
+  
+}
+
+.inside ul li a{
+  display: block;
+  text-decoration: none;
+  color:#fff;
+  text-align: center;
+  
+}
+
+.main-inside{
+  margin-top: 3px;
+  margin-left:20px;
+  color:hsl(36, 10%, 59%);
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+ 
+.main-inside:hover{
+  color:red;
+}
+
+.outside{
+background-color:  hsl(220, 100%, 6%);
+}
+
+.retro-pc{
+  margin-left: 100px;
+  margin-top: 90px;
+}
+
+.retro-pc-1{
+text-decoration: none;
+margin-left: 200px;
+margin-top: 510px;
+width:13%;
+position: absolute;
+right: 100;
+bottom: 7;
+height: 10px;
+white-space: 2rem;
+font-size: 14px;
+cursor: pointer;
+}
+
+.retro-pc-1:hover{
+color: red;
+}
+
+.retro-title1{
+  margin-left: 205px;
+  margin-top: 437px;
+  width:13%;
+  position: absolute;
+  right: 100;
+  bottom: 8;
+  height: 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.retro-title1 a{
+  color:hsl(16, 20%, 88%);
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.retro-title2{
+  margin-left: 200px;
+  margin-top: 499px;
+  width:13%;
+  position: absolute;
+  right: 100;
+  bottom: 8;
+  height: 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.retro-title2 a{
+  color:black;
+  text-decoration: none;
+}
+ 
+.top-laptop{
+  margin-left: 470px;
+  margin-top: 625px;
+ position: absolute;
+  top: 0; 
+}
+
+.top-laptop-1{
+text-decoration: none;
+margin-left: 570px;
+margin-top: 510px;
+width:13%;
+position: absolute;
+right: 100;
+bottom: 7;
+height: 10px;
+white-space: 2rem;
+font-size: 14px;
+cursor: pointer;
+}
+
+.top-laptop-1:hover{
+  color: red;
+}
+
+.top-title1{
+  margin-left: 575px;
+  margin-top: 437px;
+  width:13%;
+  position: absolute;
+  right: 100;
+  bottom: 8;
+  height: 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.top-title1 a{
+  color:hsl(16, 20%, 88%);
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.top-title2{
+  margin-left: 570px;
+  margin-top: 499px;
+  width:13%;
+  position: absolute;
+  right: 100;
+  bottom: 8;
+  height: 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.top-title2 a{
+  color:black;
+  text-decoration: none;
+}
+ 
+
+.gaming-growth{
+  margin-left: 800px;
+  margin-top: 625px;
+ position: absolute;
+  top: 0; 
+}
+
+.gaming-growth-1{
+text-decoration: none;
+margin-left: 900px;
+margin-top: 510px;
+width:13%;
+position: absolute;
+right: 50;
+bottom: 7;
+height: 10px;
+white-space: 2rem;
+font-size: 14px;
+cursor: pointer;
+}
+
+.gaming-growth-1:hover{
+  color: red;
+}
+
+.gaming-title1{
+  margin-left: 900px;
+  margin-top: 437px;
+  width:13%;
+  position: absolute;
+  right: 100;
+  bottom: 8;
+  height: 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.gaming-title1 a{
+  color:hsl(16, 20%, 88%);
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.gaming-title2{
+  margin-left: 900px;
+  margin-top: 499px;
+  width:13%;
+  position: absolute;
+  right: 100;
+  bottom: 8;
+  height: 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.gaming-title2 a{
+  color:black;
+  text-decoration: none;
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin: 10px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 1080px) {
+  .main {
+    padding: 0px;
+  }
+}
+

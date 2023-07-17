@@ -1,0 +1,76 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://th.bing.com/th/id/R.ba416f99243beca4de7c7aa4bea6512b?rik=IvyVtP0XVvBUlA&riu=http%3a%2f%2fgodfatherstyle.com%2fwp-content%2fuploads%2f2015%2f12%2fwhite-interior.jpg&ehk=KyMdq4q91fSAKgzd0FNpE9YvJWqepG%2fclt0hXsph6wA%3d&risl=&pid=ImgRaw&r=0);
+background-size: cover;
+background-position: center;
+font-family: sans-serif;
+}
+
+.menu-bar{
+    background: rgb(0,100,0);
+    text-align: center;
+}
+
+.menu-bar ul{
+    color:rgb(255, 255, 255);
+    list-style: none;
+}
+
+.menu-bar ul li{
+     display:inline-flex;
+    width:120px;
+    padding:11px;
+    margin:15px;
+    position: relative;
+}
+
+.menu-bar ul li a{
+    display: block;
+   /* padding:20px 25px;*/
+    text-decoration: none;
+    color:#fff;
+    text-align: center;
+    
+}
+
+.active, .menu-bar ul li:hover
+{
+background: #2bab0d;
+border-radius: 3px;
+}
+
+.menu-bar .fa{
+    margin-right: 8px;
+}
+
+.submenu{
+display:none;
+}
+
+.menu-bar ul li:hover .submenu{
+    display:block;
+    position:absolute;
+    background:rgb(0 100 0);
+    margin-top: 15px;
+    margin-left:-15px;
+}
+
+.menu-bar ul li:hover .submenu ul{
+display: block;
+margin:10px;
+}
+
+.menu-bar ul li:hover .submenu ul li{
+    width:150px;
+    padding:10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    align-items: left;
+}
